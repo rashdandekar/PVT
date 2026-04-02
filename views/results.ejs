@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Properties Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .result { margin-bottom: 10px; }
+        a { display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; }
+        a:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+    <h1>Gas Properties Results</h1>
+    <div class="result"><strong>Specific Gravity:</strong> <%= spgr %></div>
+    <div class="result"><strong>H2S (%):</strong> <%= h2s %></div>
+    <div class="result"><strong>CO2 (%):</strong> <%= co2 %></div>
+    <div class="result"><strong>N2 (%):</strong> <%= n2 %></div>
+    <div class="result"><strong>Pressure (psia):</strong> <%= pressure %></div>
+    <div class="result"><strong>Temperature (°F):</strong> <%= temperature %></div>
+    <div class="result"><strong>Z-Factor:</strong> <%= z.toFixed(4) %></div>
+    <div class="result"><strong>Formation Volume Factor (ft³/scf):</strong> <%= fvf.toFixed(6) %></div>
+    <div class="result"><strong>Density (lb/ft³):</strong> <%= density.toFixed(4) %></div>
+    <div class="result"><strong>Viscosity (cp):</strong> <%= viscosity.toFixed(6) %></div>
+    <a href="/">Calculate Again</a>
+</body>
+</html>
