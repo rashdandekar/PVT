@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Placeholder</title>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Roboto';
+			font-size: 15px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<h1 class="text-center">Oil and Gas PVT</h1>
+	</div>
+
+	<div class="container">
+
+		<div class="row gap-3">
+			<div class="col-4 p-1">
+				<div class="form-group">
+					<label for="units">Units</label>
+					<select class="form-control" style="font-size: 15px;" name="units" id="units">
+						<option>Oilfield</option>
+						<option>Metric</option>
+					</select>
+				</div>
+
+			</div>
+			<div class="col-8">
+
+			</div>
+		</div>
+
+		<div class="row gap-3">
+			<div class="col-sm border" style="background-color: tomato;">
+				<p style="font-weight: bold;">Gas Properties</p>
+				<div class="form-group">
+					<label for="spgr">Gas Specific Gravity</label>
+					<input type="text" class="form-control" name="spgr" id="spgr">
+				</div>
+				<div class="form-group">
+					<label for="h2s">H<sub>2</sub>S - mole%</label>
+					<input type="text" class="form-control" name="h2s" id="h2s">
+				</div>
+				<div class="form-group">
+					<label for="co2">CO<sub>2</sub> - mole %</label>
+					<input type="text" class="form-control" name="co2" id="co2">
+				</div>
+				<div class="form-group">
+					<label for="n2">N<sub>2</sub> - mole %</label>
+					<input type="text" class="form-control" name="n2" id="n2">
+				</div>
+
+			</div>
+			<div class="col-sm border" style="background-color: aquamarine;">
+				<p style="font-weight: bold;">Oil Properties</p>
+				<div class="form-group">
+					<label for="oilapi">Oil API</label>
+					<input type="text" class="form-control" name="oilapi" id="oilapi">
+				</div>
+				<div class="form-group">
+					<label for="rsb">Bubble point pressure</label>
+					<input type="text" class="form-control" name="pb" id="pb">
+				</div>
+				<div class="form-group">
+					<label for="rs">Solution GOR</label>
+					<input type="text" class="form-control" name="rs" id="rs">
+				</div>
+			</div>
+			<div class="col-sm border" style="background-color: bisque;">
+				<p style="font-weight: bold;">Other parameters</p>
+				<div class="form-group">
+					<label for="pr">Reservoir pressure</label>
+					<input type="text" class="form-control" name="pr" id="pr">
+				</div>
+				<div class="form-group">
+					<label for="pt">Reservoir Temperature</label>
+					<input type="text" class="form-control" name="pt" id="pt">
+				</div>
+				<div class="form-group">
+					<label for="pmax">Maximum pressure</label>
+					<input type="text" class="form-control" name="pmax" id="pmax">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Optional JavaScript; choose one of the two! -->
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+	</script>
+
+	<!-- Option 2: Separate Popper and Bootstrap JS -->
+	<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
